@@ -15,8 +15,8 @@ tags = ["spatial-web", "indoor-mapping"]
 author = {name = "Sagar Bharadwaj", url = "https://sagar-bharadwaj-ks.github.io/" }
 # The committee specification is  a list of objects similar to the author.
 committee = [
-    {name = "Srinivasan Seshan", url = "https://www.cs.cmu.edu/~srini/"},
-    {name = "Anthony Rowe", url = "https://users.ece.cmu.edu/~agr/"},
+    {name = "Committee Member 1's Full Name", url = "Committee Member 1's page"},
+    {name = "Committee Member 2's Full Name", url = "Committee Member 2's page"},
     {name = "Committee Member 3's Full Name", url = "Committee Member 3's page"}
 ]
 +++
@@ -111,3 +111,8 @@ We adopt a hierarchical chain-of-trust model for OpenFLAME in which each zone si
 
 # Final Thoughts
 
+A federated spatial platform will be a key part of the infrastructure needed to deploy robots and AR devices at scale. Just as applications today are built on top of the Web, future spatial applications could be built on top of the Spatial Web. These applications would discover and combine services from independently operated map servers as devices move across physical spaces, allowing a robot or AR device to function across organizational boundaries without relying on a single mapping provider.
+
+Realizing this vision will require open standards, analogous to the Web and Internet standards of today, that define common interfaces for discovering map servers, describing spatial coverage, and requesting map services. On top of these interfaces, off-the-shelf models could provide spatial intelligence that helps applications interpret environments and use the services exposed by different map providers. This separation would allow map owners to retain control of their data while application developers build new capabilities against a shared platform.
+
+At the same time, the interfaces to physical spaces must be designed carefully. Maps may expose sensitive information about homes, workplaces, and the people who occupy them. Spatial services should therefore reveal only the information required for a task and support strong authentication, fine-grained access control, and privacy-preserving computation. These protections are essential if the Spatial Web is to support a rich ecosystem of applications without compromising the security or privacy of the spaces on which they depend.
