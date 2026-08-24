@@ -1,8 +1,8 @@
 +++
 # The title of your blogpost. No sub-titles are allowed, nor are line-breaks.
-title = "OpenFLAME: Enabling the Spatial Web"
+title = "OpenFLAME: Enabling the Federated Spatial Web"
 # Date must be written in YYYY-MM-DD format. This should be updated right before the final PR is made.
-date = 2025-11-25
+date = 2026-09-01
 
 [taxonomies]
 # Keep any areas that apply, removing ones that don't. Do not add new areas!
@@ -21,11 +21,9 @@ committee = [
 ]
 +++
 
-# The case for a federated Spatial Web
+It is 2040, and you’re a hungry, busy PhD student in your office who has to attend a talk in thirty minutes. You place a DoorDash order from your favorite restaurant. An autonomous robot picks up your order from a restaurant in a mall. It then drives itself from the mall to your university, finds your office, and hand-delivers the food to you. You eat and then use your Augmented Reality (AR) glasses to find your way to the conference room in time to attend the talk. More broadly, this points toward a next generation of the Web in which digital information is anchored to physical locations. We refer to this as the Spatial Web.
 
-It is 2040, and you’re a hungry, busy PhD student in your office who has to attend a talk in thirty minutes. You place a DoorDash order from your favorite restaurant. An autonomous robot picks up your order from a restaurant in a mall. It then drives itself from the mall to your university, finds your office, and hand-delivers the food to you. You eat and then use your Augmented Reality (AR) glasses to find your way to the conference room in time to attend the talk. More broadly, this points toward a next generation of the Web in which digital information is anchored to physical locations---what we refer to as the Spatial Web.
-
-Realizing such a future requires advances across multiple areas, including multi-modal perception, human–robot interaction, robot manipulation, and augmented reality displays. A largely ignored piece of the puzzle is the underlying mapping infrastructure---the system responsible for assigning semantic labels to physical spaces and representing relationships among them. In the scenario above, both the delivery robot and the AR glasses depend on maps spanning multiple environments, including the mall, public road networks, and the university’s indoor spaces. 
+Realizing such a future requires advances across multiple areas, including multi-modal perception, human–robot interaction, robot manipulation, and augmented reality displays. A largely ignored piece of the puzzle is the underlying mapping infrastructure, i.e., the system responsible for assigning semantic labels to physical spaces and representing relationships among them. In the scenario above, both the delivery robot and the AR glasses depend on maps spanning multiple environments, including the mall, public road networks, and the university’s indoor spaces. 
 
 At first glance, this vision may appear to be already addressed by existing mapping platforms such as Google Maps, Apple Maps, Mapbox, and OpenStreetMap. However, these systems are fundamentally centralized: each is hosted, maintained, and controlled by a single organization. For example, Google Maps is operated entirely by Google. As illustrated in Figure 1, a centralized mapping architecture consists of a centrally managed map database coupled with location-based services that operate over this data to serve application requests. A routing service, for instance, executes shortest-path algorithms on the centralized map to support navigation applications.
 
